@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Pick-A-Platter</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Pick-A-Platter</h1>
+  
+
+  <form id="cart-form">
+    <!-- User Info -->
+    <div class="user-info">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required />
+    </div>
+
+    <!-- Starters / Appetizers -->
+    <h2>Starters / Appetizers</h2>
+    <div class="items">
+      <div class="item">
+        <img src="images/Paneer Tikka.png" alt="Paneer Tikka">
+        <p>Paneer Tikka</p>
+        <input type="checkbox" name="item" value="Paneer Tikka" />
+      </div>
+
+      <div class="item">
+        <img src="images/Hara Bhara Kabab.png" alt="Hara Bhara Kabab">
+        <p>Hara Bhara Kabab</p>
+        <input type="checkbox" name="item" value="Hara Bhara Kabab" />
+      </div>
+
+      <div class="item">
+        <img src="images/Chicken Wings.png" alt="Chicken Wings">
+        <p>Chicken Wings</p>
+        <input type="checkbox" name="item" value="Chicken Wings" />
+      </div>
+
+      <div class="item">
+        <img src="images/Nachos with Cheese & Salsa.png" alt="Nachos with Cheese & Salsa">
+        <p>Nachos with Cheese & Salsa</p>
+        <input type="checkbox" name="item" value="Nachos with Cheese & Salsa" />
+      </div>
+
+      <div class="item">
+        <img src="images/Caprese Salad.png" alt="Caprese Salad">
+        <p>Caprese Salad</p>
+        <input type="checkbox" name="item" value="Caprese Salad" />
+      </div>
+
+      <div class="item">
+        <img src="images/Arancini (Stuffed Rice Balls).png" alt="Arancini (Stuffed Rice Balls)">
+        <p>Arancini (Stuffed Rice Balls)</p>
+        <input type="checkbox" name="item" value="Arancini (Stuffed Rice Balls)" />
+      </div>
+    </div>
+
+    <!-- Main Course -->
+    <h2>Main Course</h2>
+    <div class="items">
+      <div class="item">
+        <img src="images/Chole Bhature.png" alt="Chole Bhature">
+        <p>Chole Bhature</p>
+        <input type="checkbox" name="item" value="Chole Bhature" />
+      </div>
+
+      <div class="item">
+        <img src="images/Palak Paneer with Roti.png" alt="Palak Paneer with Roti">
+        <p>Palak Paneer with Roti</p>
+        <input type="checkbox" name="item" value="Palak Paneer with Roti" />
+      </div>
+
+      <div class="item">
+        <img src="images/Grilled Chicken with Veggies.png" alt="Grilled Chicken with Veggies">
+        <p>Grilled Chicken with Veggies</p>
+        <input type="checkbox" name="item" value="Grilled Chicken with Veggies" />
+      </div>
+
+      <div class="item">
+        <img src="images/Cheeseburger with Fries.png" alt="Cheeseburger with Fries">
+        <p>Cheeseburger with Fries</p>
+        <input type="checkbox" name="item" value="Cheeseburger with Fries" />
+      </div>
+
+      <div class="item">
+        <img src="images/Spaghetti Carbonara.png" alt="Spaghetti Carbonara">
+        <p>Spaghetti Carbonara</p>
+        <input type="checkbox" name="item" value="Spaghetti Carbonara" />
+      </div>
+
+      <div class="item">
+        <img src="images/Margherita Pizza.png" alt="Margherita Pizza">
+        <p>Margherita Pizza</p>
+        <input type="checkbox" name="item" value="Margherita Pizza" />
+      </div>
+    </div>
+    <!-- Drinks / Beverages -->
+    <h2>Drinks / Beverages</h2>
+    <div class="items">
+      <div class="item">
+        <img src="images/Mango Lassi.png" alt="Mango Lassi">
+        <p>Mango Lassi</p>
+        <input type="checkbox" name="item" value="Mango Lassi" />
+      </div>
+
+      <div class="item">
+        <img src="images/Jaljeera.png" alt="Jaljeera">
+        <p>Jaljeera</p>
+        <input type="checkbox" name="item" value="Jaljeera" />
+      </div>
+
+      <div class="item">
+        <img src="images/Cold Coffee.png" alt="Cold Coffee">
+        <p>Cold Coffee</p>
+        <input type="checkbox" name="item" value="Cold Coffee" />
+      </div>
+
+      <div class="item">
+        <img src="images/Lemonade.png" alt="Lemonade">
+        <p>Lemonade</p>
+        <input type="checkbox" name="item" value="Lemonade" />
+      </div>
+
+      <div class="item">
+        <img src="images/Bellini.png" alt="Bellini">
+        <p>Bellini</p>
+        <input type="checkbox" name="item" value="Bellini" />
+      </div>
+
+      <div class="item">
+        <img src="images/Mojito.png" alt="Mojito">
+        <p>Mojito</p>
+        <input type="checkbox" name="item" value="Mojito" />
+      </div>
+    </div>
+    <!-- Desserts -->
+    <h2>Desserts</h2>
+    <div class="items">
+      <div class="item">
+        <img src="images/Gulab Jamun.png" alt="Gulab Jamun">
+        <p>Gulab Jamun</p>
+        <input type="checkbox" name="item" value="Gulab Jamun" />
+      </div>
+
+      <div class="item">
+        <img src="images/Jalebi with Rabri.png" alt="Jalebi with Rabri">
+        <p>Jalebi with Rabri</p>
+        <input type="checkbox" name="item" value="Jalebi with Rabri" />
+      </div>
+
+      <div class="item">
+        <img src="images/Chocolate Brownie with Ice Cream.png" alt="Chocolate Brownie with Ice Cream">
+        <p>Chocolate Brownie with Ice Cream</p>
+        <input type="checkbox" name="item" value="Chocolate Brownie with Ice Cream" />
+      </div>
+
+      <div class="item">
+        <img src="images/Red Velvet Cake.png" alt="Red Velvet Cake">
+        <p>Red Velvet Cake</p>
+        <input type="checkbox" name="item" value="Red Velvet Cake" />
+      </div>
+
+      <div class="item">
+        <img src="images/Tiramisu.png" alt="Tiramisu">
+        <p>Tiramisu</p>
+        <input type="checkbox" name="item" value="Tiramisu" />
+      </div>
+
+      <div class="item">
+        <img src="images/Panna Cotta.png" alt="Panna Cotta">
+        <p>Panna Cotta</p>
+        <input type="checkbox" name="item" value="Panna Cotta" />
+      </div>
+    </div>
+
+
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
